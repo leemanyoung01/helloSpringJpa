@@ -119,6 +119,9 @@
             </tr>
         </tbody>
     </table>
-
+    <hr>
+    <footer style="margin-top: 31px; color: gray; font-size: 14px;">
+        <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss') + ' | 학번: 2271472 | 성명: 이우현'}"></p>
+    </footer>
 </body>
 </html>
